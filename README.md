@@ -67,8 +67,11 @@ Then open the local URL displayed by Streamlit, usually `http://localhost:8501`.
 .
 ├── agentic_travel_planner.py  # Streamlit application and agent workflow
 ├── pyproject.toml              # Project metadata and dependencies
+├── uv.lock                     # Locked dependency versions
 └── README.md                   # Project documentation
 ```
+
+The repository also contains local environment and build metadata such as `.env`, `.venv/`, `__pycache__/`, and `agentic_travel_planner.egg-info/`; these are not required source files and should not be committed.
 
 ## How It Works
 
