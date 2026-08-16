@@ -1,0 +1,22 @@
+[project]
+name = "agentic-travel-planner"
+version = "0.1.0"
+description = "AI-powered travel planning with multiple collaborative agents"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "streamlit>=1.28.0",
+    "langchain-google-genai>=1.0.0",
+    "langchain-community>=0.0.10",
+    "google-generativeai>=0.3.0",
+    "icalendar>=5.0.11",
+    "python-dotenv>=1.0.0",
+    "google-search-results>=2.4.2",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = []
